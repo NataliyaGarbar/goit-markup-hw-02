@@ -17,13 +17,6 @@ button {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -125,7 +118,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*-------------------------------TEAM------------------*/
+/*--------------------------TEAM------------------*/
 .team {
   background-color: #f4f4fd;
 }
@@ -139,13 +132,17 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-list {
+}
+
+.team-item {
   background-color: #ffffff;
 }
-.team-item {
-}
+
 .team-image {
 }
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -154,6 +151,7 @@ button {
   text-align: center;
   color: #2e2f42;
 }
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
